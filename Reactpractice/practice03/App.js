@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client"; 
 const root=ReactDOM.createRoot(document.querySelector('#child1'));
 const str=React.createElement("p",{},"React for Child1")
 
